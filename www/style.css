@@ -1,14 +1,10 @@
-h1, div, nav, .header, ul, .header_nav {
+h1, div, nav, .header, ul, .header_nav, img, .section2_2 {
   margin: 0;
   padding: 0;
   border: 0;
   vertical-align: baseline;
 }
-a {
-    color: #1cb39b;
-    text-decoration: none;
-}
-}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #282828;  
@@ -24,8 +20,7 @@ body {
   left: 0;
   width: 100%;
   min-width: 320px;
-  box-sizing: border-box;
-  align-content: center; 
+  
   padding-top: 7px;
   padding-left: 18px;
   padding-right: 18px;
@@ -34,16 +29,19 @@ body {
   width: 100%;
   box-sizing: border-box;
   color: #fff;
-  margin: 0px;
+  margin: 0 auto;
   border: 0px;
 }
-ul {
-  color: white; 
-  list-style-type:none;
+.header_nav {
+  margin: 0 auto;
 }
+
 a {
   color: white;
   text-decoration:none;
+}
+img {
+  vertical-align: middle;
 }
 .header_logo {
   width: 138px;
@@ -89,6 +87,10 @@ li {
   padding-left: 10px;
   padding-right: 10px;
 }
+.li_1 {
+  display: block;
+  padding-bottom: 20px;
+}
 .section_1 {
   margin: 0 auto;
   padding-top: 66px;
@@ -106,7 +108,7 @@ li {
   font-weight: 300;
   margin-bottom: 24px;
 }
-.bloc1_descrip{
+.bloc1_descrp{
   font-size: 16px;
   line-height: 26px;
   opacity: .78;
@@ -129,7 +131,95 @@ li {
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
+  margin-top: 40px;
   }
   .section1_1 {
     display: table-row;
   }
+  .bloc1_action {
+    color: #1cb39b; 
+  }
+
+  .section_2 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+  }
+  .section2_2 {
+    display: table-row;
+
+  }
+  .bloc2 {
+    display: table-cell;
+    margin: 0;
+    min-height: 0;
+    float: none !important;
+    width: 50%;
+    background-color: #D0E9EA;
+    vertical-align: top;
+    padding-bottom: 330px;
+  }
+  .bloc2_2 {
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+  .appels {
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 17px;
+    font-weight: 500;
+    letter-spacing: .15em;
+    margin-bottom: 7px;
+    color: rgba(0,0,0,0.5);
+  }
+  .parler {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: .05em;
+    margin-bottom: 25px;
+}
+  .bloc2_text {
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  sup {
+    display: inline;
+    vertical-align: top;
+    margin-top: -2px;
+    opacity: .8;
+  }
+  .nowrap {
+    white-space: nowrap;
+  }
+  .bloc2_img {
+    clear: both;
+    background-size: auto 319px;
+    height: 320px;
+    background-image: url("https://www-cdn.whatsapp.net/img/v4/feature-3.png?v=bfe2fe6");
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+  .divider {
+    width: 20px;
+  }
+  .bloc2_anim {
+    display: table-cell;
+    margin: 0;
+    min-height: 0;
+    float: none !important;
+    width: 50%;
+    background-color: #EDF8F5;
+  }
+  .aa {
+    color: #1cb39b;
+  }
+  
