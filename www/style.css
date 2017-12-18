@@ -54,6 +54,9 @@ a {
   align-items: center;
   padding-left: 30px;
 }
+.fff {
+  padding-right: 5px;
+}
 
 img {
   vertical-align: middle;
@@ -204,7 +207,11 @@ img {
       width: 272px;
       height: 272px;
       border-radius: 50%;
-      background: #77D6C7;
+      background-color: #CFF2E0;
+      background-image: url("anim.gif");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;     
       margin-bottom: 30px;
   }
 
